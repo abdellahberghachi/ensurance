@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>/*android:checkableBehavior="single">*/
+        <item
+            android:id="@+id/suivi_dossier"
+            android:icon="@drawable/ic_folder_open_black_24dp"
+            android:title="@string/suivi_de_vos_dossiers" />
+        <item
+            android:id="@+id/vehicules"
+            android:icon="@drawable/ic_directions_car_black_24dp"
+            android:title="@string/gerer_vos_vehicules" />
+        <item
+            android:id="@+id/num_urgence"
+            android:icon="@drawable/ic_warning_black_24dp"
+            android:title="@string/numeros_urgence" />
+        <item
+            android:id="@+id/hopitaux"
+            android:icon="@drawable/ic_local_hospital_black_24dp"
+            android:title="@string/hopitaux_et_pharmacies" />
+    </group>
+
+    <item android:title="@string/autres">
+        <menu>
+            <item
+                android:id="@+id/parametres"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="@string/parametres" />
+            <item
+                android:id="@+id/aide"
+                android:icon="@drawable/ic_help_black_24dp"
+                android:title="@string/aide" />
+            <item
+                android:id="@+id/deconnecter"
+                android:icon="@drawable/ic_power_settings_new_black_24dp"
+                android:title="@string/se_deconnecter" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hao.e_nsurance.activities.EmergencyNumbersActivity"
+    android:weightSum="3"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:layout_marginBottom="5dp">
+
+        <Button
+            android:id="@+id/ambulance"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/ambulance"
+            android:background="@color/red"
+            android:drawableTop="@drawable/urgence"
+            android:textSize="20sp"
+            android:paddingBottom="10dp"
+            android:paddingTop="30dp"
+            android:textColor="@color/white"
+            android:elevation="10dp"
+            android:layout_marginEnd="5dp" />
+
+        <Button
+            android:id="@+id/pompiers"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/pompiers"
+            android:background="@color/red"
+            android:drawableTop="@drawable/fire"
+            android:textSize="20sp"
+            android:paddingBottom="10dp"
+            android:paddingTop="30dp"
+            android:textColor="@color/white"
+            android:elevation="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginBottom="5dp">
+
+        <Button
+            android:id="@+id/police"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/police"
+            android:background="@color/colorAccent"
+            android:drawableTop="@drawable/policee"
+            android:textSize="20sp"
+            android:paddingBottom="10dp"
+            android:paddingTop="30dp"
+            android:textColor="@color/white"
+            android:elevation="10dp"
+            android:layout_marginEnd="5dp" />
+
+        <Button
+            android:id="@+id/Gendarmerie"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/gendarmerie"
+            android:background="@color/colorAccent"
+            android:drawableTop="@drawable/policee"
+            android:textSize="20sp"
+            android:paddingBottom="10dp"
+            android:paddingTop="30dp"
+            android:textColor="@color/white"
+            android:elevation="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/Assurance"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/assurance"
+            android:background="@color/colorAccent"
+            android:drawableTop="@drawable/ic_assurance"
+            android:textSize="20sp"
+            android:paddingBottom="10dp"
+            android:paddingTop="30dp"
+            android:textColor="@color/white"
+            android:elevation="10dp"
+            android:layout_marginEnd="5dp" />
+
+        <Button
+            android:id="@+id/Assistance"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/assistance"
+            android:background="@color/colorAccent"
+            android:drawableTop="@drawable/truck"
+            android:textSize="20sp"
+            android:paddingTop="18dp"
+            android:textColor="@color/white"
+            android:elevation="10dp" />
+    </LinearLayout>
+</LinearLayout>

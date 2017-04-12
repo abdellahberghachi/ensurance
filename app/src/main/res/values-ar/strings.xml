@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="authentifier">تسجيل الدخول</string>
+    <string name="creer_compte">فتح حساب</string>
+    <string name="mot_de_passe">كلمة السر</string>
+    <string name="mot_de_passe_oubli">كلمة السر مفقودة ؟</string>
+    <string name="retaper_mot_de_passe">إعادة كتابة كلمة السر</string>
+    <string name="e_mail">البريد الإلكتروني</string>
+    <string name="aide">مساعدة</string>
+    <string name="assurance">تأمين</string>
+    <string name="hopitaux_et_pharmacies">مستشفيات و صيدليات</string>
+    <string name="pays">دولة</string>
+    <string name="police">الشرطة</string>
+    <string name="rue">زنقة</string>
+    <string name="ville">مدينة</string>
+    <string name="title_activity_client_home">الصفحة الرئيسية</string>
+    <string name="supprimer">حذف</string>
+    <string-array name="typevehicule">
+        <item>سيارة</item>
+        <item>دراجة نارية</item>
+        <item>شاحنة</item>
+    </string-array>
+    <string name="annuler">إلغاء</string>
+    <string name="ambulance">سيارة الإسعاف</string>
+    <string name="choisir_une_photo">اختيار صورة</string>
+    <string name="changer_photo_profil">تغيير الصورة الشخصية</string>
+    <string name="consignes_de_securite">تعليمات السلامة</string>
+    <string name="date_de_naissance">تاريخ الميلاد</string>
+    <string name="declarer">تصربح</string>
+    <string name="declarer_accident">تصريح بحادث اصطدام</string>
+    <string name="feux_de_detresse">أضواء الخطر</string>
+    <string name="gendarmerie">الدرك</string>
+    <string name="gerer_vos_vehicules">إدارة المركبات</string>
+    <string name="gilets_de_securite">سترة السلامة</string>
+    <string name="mon_profil">ملف التعريف الشخصي</string>
+    <string name="n_telephone">رقم الهاتف</string>
+    <string name="nom">الإسم العائلي</string>
+    <string name="numeros_urgence">أرقام الطوارئ</string>
+    <string name="parametres">إعدادات</string>
+    <string name="pompiers">رجال الإطفاء</string>
+    <string name="prendre_une_photo">التقاط صورة</string>
+    <string name="prenom">الإسم الشخصي</string>
+    <string name="remplir_un_constat"></string>
+    <string name="se_deconnecter">تسجيل الخروج</string>
+    <string name="title_activity_vehicule">مركبات</string>
+    <string name="version">إصدار</string>
+    <string name="ajouter_vehicule">إضافة مركبة</string>
+    <string name="appeler_les_urgences">الإتصال بالمستعجلات</string>
+    <string name="constat">معاينة</string>
+</resources>

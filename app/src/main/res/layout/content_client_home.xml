@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.hao.e_nsurance.activities.ClientHomeActivity"
+    tools:showIn="@layout/app_bar_client_home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:weightSum="100"
+        android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/consignes"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="50"
+        android:layout_marginBottom="5dp"
+        android:elevation="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/gilet_et_triangle"
+            android:scaleType="fitXY" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000000"
+            android:alpha="0.6" />
+
+        <TextView
+            android:id="@+id/txtConsignes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/consignes_de_securite"
+            android:layout_centerHorizontal="true"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="40dp" />
+
+        <TextView
+            android:id="@+id/avant_de_commencer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/avant_de_commencer_mettez_vous_en_securite"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:layout_below="@id/txtConsignes"
+            android:layout_marginTop="25dp" />
+
+        <LinearLayout
+            android:id="@+id/icons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/avant_de_commencer"
+            android:layout_marginTop="40dp"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/light"
+                android:layout_weight="33" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/vest_colored"
+                android:layout_weight="33" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/triangle"
+                android:layout_weight="33" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/icons"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/feux_de_detresse"
+                android:textColor="@color/white"
+                android:layout_weight="33"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/gilets_de_securite"
+                android:textColor="@color/white"
+                android:layout_weight="33"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/triangle_de_signalisation"
+                android:textColor="@color/white"
+                android:layout_weight="33"
+                android:textAlignment="center" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="25"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginBottom="5dp">
+
+        <Button
+            android:id="@+id/declarer"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:text="@string/declarer_accident"
+            android:drawableTop="@drawable/car_collision1"
+            android:paddingTop="20dp"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:elevation="10dp"
+            android:layout_marginEnd="5dp" />
+
+        <Button
+            android:id="@+id/remplir_constat"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:text="@string/remplir_un_constat"
+            android:drawableTop="@drawable/forms"
+            android:paddingTop="20dp"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:elevation="10dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/appeler_urgences"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/red"
+        android:text="@string/appeler_les_urgences"
+        android:drawableTop="@drawable/urgence"
+        android:textSize="20sp"
+        android:paddingTop="15dp"
+        android:textColor="@color/white"
+        android:layout_weight="25"
+        android:elevation="10dp" />
+</LinearLayout>
+</RelativeLayout>

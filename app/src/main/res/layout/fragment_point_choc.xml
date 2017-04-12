@@ -1,0 +1,135 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cliquez sur une des zones du véhicule pour indiquer le point de choc initial."
+        android:textSize="15sp"
+        android:background="@color/colorAccent"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:elevation="1dp"
+        android:drawableLeft="@drawable/ic_help_black_24dp"
+        android:drawableTint="@color/white"
+        android:drawablePadding="20dp"
+        android:layout_marginBottom="10dp"/>
+
+
+    <RelativeLayout
+        android:id="@+id/schema"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="110dp"
+            android:layout_height="70dp"
+            android:background="@drawable/point_choc_background"
+            android:button="@android:color/transparent"/>
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:background="@drawable/point_choc_background"
+            android:button="@android:color/transparent"
+            android:layout_toEndOf="@id/radio1"/>
+
+        <RadioButton
+            android:id="@+id/radio3"
+            android:layout_width="110dp"
+            android:layout_height="70dp"
+            android:background="@drawable/point_choc_background"
+            android:button="@android:color/transparent"
+            android:layout_toEndOf="@id/radio2"/>
+        <RadioButton
+            android:id="@+id/radio4"
+            android:layout_width="135dp"
+            android:layout_height="80dp"
+            android:background="@drawable/point_choc_background"
+            android:button="@android:color/transparent"
+            android:layout_below="@id/radio1"/>
+
+        <RadioButton
+            android:id="@+id/radio5"
+            android:layout_width="135dp"
+            android:layout_height="80dp"
+            android:background="@drawable/point_choc_background"
+            android:button="@android:color/transparent"
+            android:layout_toEndOf="@id/radio4"
+            android:layout_alignBottom="@id/radio4"/>
+
+        <RadioButton
+            android:id="@+id/radio6"
+            android:layout_width="135dp"
+            android:layout_height="110dp"
+            android:background="@drawable/point_choc_background"
+            android:button="@android:color/transparent"
+            android:layout_below="@id/radio4"/>
+
+        <RadioButton
+            android:id="@+id/radio7"
+            android:layout_width="135dp"
+            android:layout_height="110dp"
+            android:background="@drawable/point_choc_background"
+            android:button="@android:color/transparent"
+            android:layout_toEndOf="@id/radio6"
+            android:layout_alignBottom="@id/radio6"/>
+
+        <RadioButton
+            android:id="@+id/radio8"
+            android:layout_width="135dp"
+            android:layout_height="80dp"
+            android:background="@drawable/point_choc_background"
+            android:button="@android:color/transparent"
+            android:layout_below="@id/radio6"/>
+
+        <RadioButton
+            android:id="@+id/radio9"
+            android:layout_width="135dp"
+            android:layout_height="80dp"
+            android:background="@drawable/point_choc_background"
+            android:button="@android:color/transparent"
+            android:layout_toEndOf="@id/radio8"
+            android:layout_alignBottom="@id/radio8"/>
+
+        <RadioButton
+            android:id="@+id/radio10"
+            android:layout_width="110dp"
+            android:layout_height="70dp"
+            android:background="@drawable/point_choc_background"
+            android:button="@android:color/transparent"
+            android:layout_below="@id/radio8"/>
+
+        <RadioButton
+            android:id="@+id/radio11"
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:background="@drawable/point_choc_background"
+            android:button="@android:color/transparent"
+            android:layout_toEndOf="@id/radio10"
+            android:layout_alignBottom="@id/radio10"/>
+
+        <RadioButton
+            android:id="@+id/radio12"
+            android:layout_width="110dp"
+            android:layout_height="70dp"
+            android:background="@drawable/point_choc_background"
+            android:button="@android:color/transparent"
+            android:layout_toEndOf="@id/radio11"
+            android:layout_alignBottom="@id/radio11"/>
+
+        <ImageView
+            android:id="@+id/vehicule"
+            android:layout_width="150dp"
+            android:layout_height="350dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/car"/>
+
+    </RelativeLayout>
+</RelativeLayout>

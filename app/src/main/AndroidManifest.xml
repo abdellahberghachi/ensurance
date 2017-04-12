@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.hao.e_nsurance">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon">
+        <service android:name=".services.ServiceLocation" />
+        <service android:name=".services.ListenerDeclaration" />
+
+        <activity
+            android:name=".activities.AuthEnregActivity"
+            android:theme="@style/AppTheme.SplashView">
+            <meta-data
+                android:name="android.app.shortcuts"
+                android:resource="@xml/shortcuts" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                >
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".activities.AccidentDeclarationActivity"
+            android:label="@string/ma_position"
+            android:parentActivityName=".activities.ClientHomeActivity" />
+        <activity
+            android:name=".activities.ClientHomeActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.AboutActivity"
+            android:label="@string/propos"
+            android:theme="@style/Theme.AppCompat.Light.Dialog.Alert" />
+        <activity
+            android:name=".activities.HopitalPharmacieActivity"
+            android:label="@string/hopitaux_et_pharmacies"
+            android:parentActivityName=".activities.ClientHomeActivity" />
+        <activity
+            android:name=".activities.EmergencyNumbersActivity"
+            android:label="@string/numeros_urgence"
+            android:parentActivityName=".activities.ClientHomeActivity" />
+        <activity
+            android:name=".activities.ProfilActivity"
+            android:label="@string/mon_profil"
+            android:parentActivityName=".activities.ClientHomeActivity" />
+        <activity
+            android:name=".activities.VehiculeActivity"
+            android:label="@string/title_activity_vehicule"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.AjoutVehiculeActivity"
+            android:label="@string/ajouter_vehicule" />
+        <activity
+            android:name=".activities.ConstatActivity"
+            android:label="@string/constat"
+            android:parentActivityName=".activities.ClientHomeActivity" />
+        <activity
+            android:name=".activities.DossierActivity"
+            android:label="@string/dossiers"
+            android:parentActivityName=".activities.ClientHomeActivity" />
+        <activity android:name=".activities.IntroApp" />
+        <activity
+            android:name=".activities.DossierDetailActivity"
+            android:parentActivityName=".activities.DossierActivity" />
+        <activity
+            android:name=".activities.MapsTracking"
+            android:label="@string/title_activity_maps_tracking" />
+        <activity
+            android:name=".activities.ConstateurActivity"
+            android:label="Déclarations d&apos;accidents"
+            android:theme="@style/AppTheme.ActionBar.Transparent" />
+        <activity android:name=".activities.ConstateurHomeActivity">
+            <meta-data
+                android:name="android.app.shortcuts"
+                android:resource="@xml/shortcuts" />
+        </activity>
+    </application>
+
+</manifest>

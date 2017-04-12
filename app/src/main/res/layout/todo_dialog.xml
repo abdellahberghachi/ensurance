@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange">
+
+
+    <TextView
+        android:id="@+id/close"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="×"
+        android:textColor="@color/red"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:layout_alignParentEnd="true"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:layout_marginRight="5dp"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Information"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:drawableLeft="@drawable/ic_help_black_24dp"
+        android:drawableTint="@color/white"
+        android:drawablePadding="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="30dp">
+
+        <TextView
+            android:id="@+id/bienvenue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bienvenue dans e-nsurance"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/avant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Avant de commencer, vous devez d'abord :"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/profil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Completer votre profil"
+            android:textColor="@color/white"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Ajouter un/des véhicule(s)"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</RelativeLayout>

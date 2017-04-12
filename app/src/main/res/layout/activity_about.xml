@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hao.e_nsurance.activities.AboutActivity"
+    android:orientation="vertical"
+    android:layout_marginTop="15dp"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/ai"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@mipmap/ic_launcher_round"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/app_name"
+        android:text="@string/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/version"
+        android:text="XXXXXXXX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:text="Copyright © 2017 Heitem OULED-LAGHRIYEB, Abdellah BERGHACHI, Omar LMOUNIR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start" />
+
+    <TextView
+        android:id="@+id/email1"
+        android:text="heitem12@hotmail.com"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/email2"
+        android:text="a.berghachi@gmail.com"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:id="@+id/email3"
+        android:text="lmouniromar@gmail.com"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginTop="5dp" />
+</LinearLayout>

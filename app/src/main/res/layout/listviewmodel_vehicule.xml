@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryLight">
+
+    <TextView
+        android:id="@+id/deleteItem"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:text="×"
+        android:textColor="@color/red"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_alignParentEnd="true"/>
+    <TextView
+        android:id="@+id/idVehicule"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/marque"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MARQUE"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/idVehicule"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/modelee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Modèle"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/marque"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/typeVehicule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Type"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/modelee"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/matricule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="123-ab-11"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@id/typeVehicule"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/numContrart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="12532482585"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:layout_marginBottom="1dp"
+        android:visibility="gone"/>
+</RelativeLayout>

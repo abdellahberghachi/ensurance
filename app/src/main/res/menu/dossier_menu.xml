@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/filtre"
+        android:orderInCategory="100"
+        android:title="Filtrer"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_filter_list_white_24dp" >
+
+        <menu>
+
+            <item
+                android:id="@+id/par_date"
+                android:orderInCategory="100"
+                android:title="Tri par date"
+                app:showAsAction="never"/>
+
+            <item
+                android:id="@+id/par_statut"
+                android:orderInCategory="100"
+                android:title="Tri par status"
+                app:showAsAction="never"/>
+
+        </menu>
+    </item>
+</menu>

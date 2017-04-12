@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="retaper_mot_de_passe">Retaper le mot de passe</string>
+    <string name="mot_de_passe">Mot de passe</string>
+    <string name="authentifier">S\'authentifier</string>
+    <string name="creer_compte">Créer un compte</string>
+    <string name="mot_de_passe_oubli">Mot de passe oublié ?</string>
+    <string name="e_mail">E-mail</string>
+    <string name="declarer_accident">Déclarer un accident</string>
+    <string name="urgences">Urgences</string>
+    <string name="police">Police</string>
+    <string name="assurance">Assurance</string>
+    <string name="assistance">Assistance</string>
+    <string name="suivi_de_vos_dossiers">Suivi de vos dossiers</string>
+    <string name="gerer_vos_vehicules">Gérer vos véhicules</string>
+    <string name="numeros_urgence">Numéros d\'urgence</string>
+    <string name="hopitaux_et_pharmacies">Hôpitaux et pharmacies</string>
+    <string name="autres">Autres</string>
+    <string name="parametres">Paramètres</string>
+    <string name="aide">Aide</string>
+    <string name="se_deconnecter">Se déconnecter</string>
+    <string name="propos">À propos</string>
+    <string name="title_activity_client_home">Accueil</string>
+    <string name="consignes_de_securite">Consignes de sécurité</string>
+    <string name="avant_de_commencer_mettez_vous_en_securite">Avant de commencer, mettez-vous en sécurité.</string>
+    <string name="feux_de_detresse">Feux de détresse</string>
+    <string name="gilets_de_securite">Gilets de sécurité</string>
+    <string name="triangle_de_signalisation">Triangle de  signalisation</string>
+    <string name="appeler_les_urgences">Appeler les urgences</string>
+    <string name="version">Version de l\'application : </string>
+    <string name="rue">Rue</string>
+    <string name="ville">Ville</string>
+    <string name="pays">Pays</string>
+    <string name="declarer">Déclarer</string>
+    <string name="valider">Valider</string>
+    <string name="nom">Nom</string>
+    <string name="prenom">Prénom</string>
+    <string name="n_telephone">N° de téléphone</string>
+    <string name="date_de_naissance">Date de naissance</string>
+    <string name="choisir_une_photo">Choisir une photo</string>
+    <string name="prendre_une_photo">Prendre une photo</string>
+    <string name="supprimer">Supprimer</string>
+    <string name="mon_profil">Mon Profil</string>
+    <string name="ma_position">Ma position</string>
+    <string name="ambulance">Ambulance</string>
+    <string name="pompiers">Pompiers</string>
+    <string name="gendarmerie">Gendarmerie</string>
+    <string name="annuler">Annuler</string>
+    <string name="changer_photo_profil">Changer la photo de profil</string>
+    <string name="remplir_un_constat">Remplir un constat amiable</string>
+    <string name="ajouter_vehicule">Ajouter / Modifier un véhicule</string>
+    <string-array name="typevehicule">
+        <item>Voiture</item>
+        <item>Moto</item>
+        <item>Camion</item>
+    </string-array>
+    <string name="title_activity_vehicule">Véhicules</string>
+    <string name="pharmacies">Pharmacies</string>
+    <string name="hopitaux">Hôpitaux</string>
+    <string name="recherche_en_cours">Recherche en cours ...</string>
+    <string name="votre_position">Votre position</string>
+    <string name="precedent">Précédent</string>
+    <string name="suivant">Suivant</string>
+    <string name="constat">Constat</string>
+    <string name="adresse">Adresse</string>
+    <string name="temoin">Témoin</string>
+    <string name="annuler_constat">Annuler le constat</string>
+    <string name="etes_vous_sur_annuler_constat">Êtes-vous sûr de vouloir annuler le constat ?</string>
+    <string name="oui">Oui</string>
+    <string name="non">Non</string>
+    <string name="reprendre">Reprendre</string>
+    <string name="declaration">Déclaration</string>
+    <string name="ce_champs_ne_doit_etre_vide">Ce champ ne doit pas être vide.</string>
+    <string name="chargement">Chargement ...</string>
+    <string name="email_non_valide">Adresse e-mail non valide.</string>
+    <string name="erreur">Erreur</string>
+    <string name="n_contrart_assurance">N° contrat d\'assurance</string>
+    <string name="permission_refuse">Permission refusée.</string>
+    <string name="succes">Succès</string>
+    <string name="votre_date_du_permis_de_conduire">Date du permit de conduire</string>
+    <string name="mot_de_passe_incorrect">Mot de passe incorrect</string>
+    <string name="navigation_drawer_close">Fermer le tiroir de navigation</string>
+    <string name="navigation_drawer_open">Ouvrir le tiroir de navigation</string>
+    <string name="mot_de_passe_non_identique">Mot de passe non identique</string>
+    <string name="terminer">Terminer</string>
+    <string name="dossiers">Dossiers</string>
+</resources>

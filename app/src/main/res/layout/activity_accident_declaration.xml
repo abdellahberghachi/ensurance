@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        tools:context="com.hao.e_nsurance.activities.AccidentDeclarationActivity"
+        android:layout_weight="100" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtStreet"
+            android:layout_marginEnd="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="@string/rue"
+            android:layout_marginStart="25dp" />
+
+        <EditText
+            android:id="@+id/street"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/txtStreet"
+            android:layout_alignBaseline="@id/txtStreet"
+            android:layout_marginEnd="25dp"
+            android:enabled="false" />
+
+        <TextView
+            android:id="@+id/txtCity"
+            android:layout_marginEnd="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="@string/ville"
+            android:layout_below="@+id/txtStreet"
+            android:layout_alignStart="@+id/txtStreet" />
+
+        <EditText
+            android:id="@+id/city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/txtCity"
+            android:layout_alignBaseline="@id/txtCity"
+            android:layout_alignStart="@id/street"
+            android:layout_marginEnd="25dp"
+            android:enabled="false" />
+
+        <TextView
+            android:id="@+id/txtCountry"
+            android:layout_marginEnd="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/pays"
+            android:layout_below="@+id/txtCity"
+            android:layout_alignStart="@+id/txtStreet" />
+
+        <EditText
+            android:id="@+id/country"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/txtCountry"
+            android:layout_alignBaseline="@id/txtCountry"
+            android:layout_alignStart="@id/street"
+            android:layout_marginEnd="25dp"
+            android:enabled="false" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/declareracc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFF"
+        android:text="@string/declarer"
+        android:layout_marginTop="10dp" />
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="declare"
+        android:enabled="true"
+        android:icon="@drawable/car_collision2"
+        android:shortcutShortLabel="@string/declarer_accident"
+        android:shortcutLongLabel="@string/declarer_accident"
+        android:shortcutDisabledMessage="@string/declarer">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.hao.e_nsurance"
+            android:targetClass="com.hao.e_nsurance.activities.AccidentDeclarationActivity" />
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list determines what the user sees when
+             they launch this shortcut. -->
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="remplir"
+        android:enabled="true"
+        android:icon="@drawable/forms1"
+        android:shortcutShortLabel="@string/remplir_un_constat"
+        android:shortcutLongLabel="@string/remplir_un_constat"
+        android:shortcutDisabledMessage="@string/remplir_un_constat">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.hao.e_nsurance"
+            android:targetClass="com.hao.e_nsurance.activities.ConstatActivity" />
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list determines what the user sees when
+             they launch this shortcut. -->
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>

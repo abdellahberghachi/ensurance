@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "482057683916",
+    "firebase_url": "https://ensurance-bb713.firebaseio.com",
+    "project_id": "ensurance-bb713",
+    "storage_bucket": "ensurance-bb713.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482057683916:android:1e473be182e80045",
+        "android_client_info": {
+          "package_name": "com.hao.e_nsurance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "482057683916-oojvq0k9odmbn04d0nfjqcemf2hat9h2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hao.e_nsurance",
+            "certificate_hash": "613aac11d624d9d6b82d6a10299a681a7c877464"
+          }
+        },
+        {
+          "client_id": "482057683916-q9ce9572nj0d1f2fbpehh73tlsvri0pm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbjW2GbabuKwrhYBEVTAsLcEo60nfuHMg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "482057683916-q9ce9572nj0d1f2fbpehh73tlsvri0pm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
